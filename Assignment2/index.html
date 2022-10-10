@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <style>
+        .word{
+            /* display: inline; */
+            /* display: block; */
+            /* display: inline-block; */
+            width: 40%;
+        }
+    </style>
+    <div>
+        <span class="word">HTML</span>
+        <span class="word">CSS</span>
+        <span class="word">JavaScript</span>
+    </div>
+    <div>
+        <pre class="Questions" id="first">
+            Q1. How do the elements appear? Does the width have any effect? Why / Why not?
+            Ans. Elements apprearded just one after the other with a single space between them. 
+                 No width did not have any effect because span is an inline element. 
+
+        </pre>
+        <pre class="Questions" id="second">
+            Q2. Next, set display to inline. Does it cause any change? Why / Why not?
+            Ans. No there was no change because span itself is an inline element.
+
+        </pre>
+        <pre class="Question" id="third">
+            Q3. Next, change display to block. What change does it cause?
+            Ans. The elements now appear one below the other in vertical order because the property has been changed to block and it takes the whole width of parent element.
+
+        </pre>
+        <pre class="Question" id="fourth">
+            Q4. Next, set display to inline-block. What change does it cause?
+            Ans. Now elements took the width as set. HTML and CSS are in same line with the width of 40% and JavaScript appred in next row.
+
+        </pre>
+    </div>
+    <summary>
+        <pre>
+            <strong>
+                In inline element all the elements appred in same line with a single space in between them.
+                In block element all the appred one below the other taking whole width of parent element.
+                In inline-block element they take the width as set.
+                The block elements take up the full width available.
+                The inline elements take the required width to display the contents of the elements.
+                Inline-block allows to set a width and height on the element.
+            </strong>
+        </pre>
+    </summary>
+
+</body>
+</html>
