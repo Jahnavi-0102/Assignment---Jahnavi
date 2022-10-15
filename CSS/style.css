@@ -1,0 +1,23 @@
+header, main, footer{
+    width: fit-content(90%);
+    max-width: 1140px;
+    margin: auto;
+}
+.menu{
+    height: 64px;
+    background-color: navy;
+}
+.main{
+    display: inline;
+    font-size: 24px;
+    padding: 5px;
+    margin: 5px 3px;
+}
+.menu-list a{
+    color: azure;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.menu-list a:hover{
+    border-bottom: 5px solid rgb(123, 16, 55);
+}
