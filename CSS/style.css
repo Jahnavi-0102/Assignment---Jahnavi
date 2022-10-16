@@ -7,6 +7,9 @@ header, main, footer{
     height: 64px;
     background-color: navy;
 }
+nav li{
+    float: left;   
+}
 .main{
     display: inline;
     font-size: 24px;
